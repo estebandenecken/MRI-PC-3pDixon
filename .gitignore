@@ -1,0 +1,119 @@
+# =============================================================================
+# .gitignore
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# macOS System Files
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+Icon
+
+# Thumbnails
+ehthumbs.db
+Thumbs.db
+
+# -----------------------------------------------------------------------------
+# MATLAB Generated Files
+# -----------------------------------------------------------------------------
+
+# Compiled MEX files
+*.mex*
+*.mexw32
+*.mexw64
+*.mexmaci64
+*.mexglx
+*.mexa64
+
+# Simulink generated files
+slprj/
+*.slx.bak
+*.mdl.bak
+
+# MATLAB autosave
+*.asv
+
+# MATLAB crash files
+matlab.mat
+matlab_crash_dump.*
+
+# MATLAB preferences
+matlab.prf
+
+# -----------------------------------------------------------------------------
+# Output / Generated Data (not source-controlled)
+# -----------------------------------------------------------------------------
+
+# Main output directory (generated at runtime by mkdir in scripts)
+out/
+
+# Individual MAT output files (can be large; reproduce from source)
+*.mat
+
+# Generated figures
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.eps
+*.pdf
+*.fig
+
+# -----------------------------------------------------------------------------
+# Exceptions — keep these even if matched above
+# -----------------------------------------------------------------------------
+
+# Keep documentation figures (source assets, not generated outputs)
+!doc/figures/*.png
+!doc/figures/*.jpg
+!paper/*.pdf
+!paper/Fig_PC_3pDixon/*.png
+!paper/Fig_PC_3pDixon/*.jpg
+
+# Keep any .mat files that are committed as fixtures or ground-truth inputs
+# (uncomment and adjust path if needed)
+# !data/ground_truth/*.mat
+
+# Keep this file
+!.gitignore
+
+# -----------------------------------------------------------------------------
+# Editors & IDEs
+# -----------------------------------------------------------------------------
+
+# VS Code
+.vscode/
+
+# JetBrains (MATLAB plugin)
+.idea/
+
+# Vim / Emacs swap files
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# -----------------------------------------------------------------------------
+# OS — Windows & Linux (for cross-platform teams)
+# -----------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# =============================================================================
